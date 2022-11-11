@@ -13,7 +13,10 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
+    <div id="app">
         <h1>Hello, <span>SCSS!</span></h1>
         <div class="bg-blue-700 text-white">Hello, Vite!</div>
+        <example-component name="Shahzad Tahir"></example-component>
+    </div>
     </body>
 </html>
